@@ -23,8 +23,8 @@ import java.util.Random;
  * @Author yxw
  */
 @Api(tags = "医院设置管理")
-@CrossOrigin
 @RestController
+@CrossOrigin(origins = "*")
 @RequestMapping("/admin/hosp/hospitalSet")
 public class HospitalSetController {
 
@@ -39,7 +39,7 @@ public class HospitalSetController {
     }
 
     @ApiOperation("条件查询带分页")
-    @GetMapping("findPageHospSet/{current}/{limit}")
+    @PostMapping("findPageHospSet/{current}/{limit}")
     public Result findPageHospSet(@PathVariable Long current,
                                   @PathVariable Long limit,
                                   @RequestBody(required = false) HospitalSetQueryVo hospitalSetQueryVo) {
