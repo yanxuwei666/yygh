@@ -8,7 +8,6 @@
     <artifactId>yygh-parent</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
-    <description>尚医通项目 --- 熟悉SpringCloud业务流程</description>
     <modules>
         <module>common</module>
         <module>service</module>

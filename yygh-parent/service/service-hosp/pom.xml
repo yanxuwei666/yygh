@@ -14,14 +14,13 @@
     <artifactId>service-hosp</artifactId>
     <packaging>jar</packaging>
     <name>service-hosp</name>
-    <description>医院设置模块</description>
+    <description>service-hosp</description>
 
     <dependencies>
     </dependencies>
 
     <build>
         <finalName>service-hosp</finalName>
-
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>

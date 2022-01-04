@@ -1,98 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AnalysisUIOptions">
-    <option name="GROUP_BY_SEVERITY" value="true" />
-  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c60dbc0-67ed-4f50-899e-1546a2c5c186" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../yygh-admin/src/api/hospset.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../yygh-admin/src/views/hospSet/add.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../yygh-admin/src/views/hospSet/list.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/.babelrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/.eslintignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/.eslintrc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/.postcssrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/.postcssrc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/README-zh.md" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/README-zh.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/build/build.js" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/build/build.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/build/check-versions.js" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/build/check-versions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/build/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/build/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/build/vue-loader.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/build/vue-loader.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/build/webpack.base.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/build/webpack.base.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/build/webpack.dev.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/build/webpack.dev.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/build/webpack.prod.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/build/webpack.prod.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/config/dev.env.js" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/config/dev.env.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/config/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/config/prod.env.js" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/config/prod.env.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/api/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/api/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/api/table.js" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/api/table.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/components/Breadcrumb/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/components/Breadcrumb/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/components/Hamburger/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/components/Hamburger/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/components/SvgIcon/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/components/SvgIcon/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/icons/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/icons/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/icons/svgo.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/icons/svgo.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/permission.js" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/permission.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/store/getters.js" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/store/getters.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/store/modules/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/store/modules/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/store/modules/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/store/modules/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/styles/element-ui.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/styles/element-ui.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/styles/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/styles/mixin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/styles/mixin.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/styles/sidebar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/styles/sidebar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/styles/transition.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/styles/transition.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/styles/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/styles/variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/utils/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/utils/auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/utils/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/utils/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/utils/request.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/utils/validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/utils/validate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/views/404.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/views/404.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/views/dashboard/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/views/dashboard/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/views/form/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/views/form/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/views/layout/Layout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/views/layout/Layout.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/views/layout/components/AppMain.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/views/layout/components/AppMain.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/views/layout/components/Navbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/views/layout/components/Navbar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/views/layout/components/Sidebar/Item.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/views/layout/components/Sidebar/Item.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/views/layout/components/Sidebar/Link.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/views/layout/components/Sidebar/Link.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/views/layout/components/Sidebar/SidebarItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/views/layout/components/Sidebar/SidebarItem.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/views/layout/components/Sidebar/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/views/layout/components/Sidebar/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/views/layout/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/views/layout/components/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/views/layout/mixin/ResizeHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/views/layout/mixin/ResizeHandler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/views/login/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/views/login/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/views/nested/menu1/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/views/nested/menu1/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/views/nested/menu1/menu1-1/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/views/nested/menu1/menu1-1/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/views/nested/menu1/menu1-2/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/views/nested/menu1/menu1-2/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/views/nested/menu1/menu1-2/menu1-2-1/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/views/nested/menu1/menu1-2/menu1-2-1/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/views/nested/menu1/menu1-2/menu1-2-2/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/views/nested/menu1/menu1-2/menu1-2-2/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/views/nested/menu1/menu1-3/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/views/nested/menu1/menu1-3/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/views/nested/menu2/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/views/nested/menu2/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/views/table/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/views/table/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/views/tree/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/views/tree/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/xuwei/yygh/hosp/config/MyBatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/xuwei/yygh/hosp/config/MyBatisPlusConfig.java" afterDir="false" />
+    <list default="true" id="aa6130c5-0e61-44ab-bb42-b958c3eadec6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/api/hosp/hospitalSet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/views/hosp/hospitalSet/add.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/views/hosp/hospitalSet/list.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/views/hospSet/list.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/views/hospSet/list.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/views/hospSet/vue.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common-util/target/classes/com/xuwei/yygh/common/exception/MyException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common-util/target/classes/com/xuwei/yygh/common/exception/YyghException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common-util/target/classes/com/xuwei/yygh/common/handler/GlobalExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common-util/target/classes/com/xuwei/yygh/common/result/Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common-util/target/classes/com/xuwei/yygh/common/result/ResultCodeEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/service-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/service-util/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/model/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-hosp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-hosp/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/xuwei/yygh/hosp/controller/HospitalSetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/xuwei/yygh/hosp/controller/HospitalSetController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-hosp/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-hosp/target/classes/com/xuwei/yygh/hosp/ServiceHospApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-hosp/target/classes/com/xuwei/yygh/hosp/config/MyBatisPlusConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-hosp/target/classes/com/xuwei/yygh/hosp/config/Swagger2Config.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-hosp/target/classes/com/xuwei/yygh/hosp/controller/HospitalSetController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-hosp/target/classes/com/xuwei/yygh/hosp/domain/HospitalSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-hosp/target/classes/com/xuwei/yygh/hosp/mapper/HospitalSetMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-hosp/target/classes/com/xuwei/yygh/hosp/service/HospitalSetService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-hosp/target/classes/com/xuwei/yygh/hosp/service/impl/HospitalSetServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-hosp/target/classes/logback-spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-hosp/target/classes/mapper/HospitalSetMapper.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,19 +31,9 @@
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/service/service-hosp/src/main/java/com/xuwei/yygh/hosp/controller/HospitalSetController.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -124,15 +43,12 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="22a7JLClJ31fG75KGfAMykhoHUb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="23DpCJLRfry5thKGoD4MsppPBQd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -141,25 +57,23 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/service" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="SDK Location" />
+    <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\mywork\gitee\code\project\yygh-parent\model\src\main\java\com\xuwei\yygh\vo" />
-      <recent name="D:\mywork\gitee\code\project\yygh-parent\model\src\main\java\com\xuwei\yygh" />
-      <recent name="D:\mywork\gitee\code\project\yygh-parent\common\common-util\src\main\java\com\xuwei\yygh\common" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\mywork\gitee\code\project\yygh-parent\common\service-util\src\main\java\com\xuwei\yygh\common\utils" />
+      <recent name="D:\mywork\project\yygh\yygh-parent\service\service-hosp\src\main\resources" />
+      <recent name="D:\mywork\project\yygh\yygh-parent\service\service-hosp\src\main\java" />
+      <recent name="D:\mywork\project\yygh\yygh-parent\model\src\main\java" />
+      <recent name="D:\mywork\project\yygh\yygh-parent\common\service-util\src\main\java" />
+      <recent name="D:\mywork\project\yygh\yygh-parent\common\common-util\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -170,6 +84,17 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServiceHospApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="service-hosp" />
       <extension name="coverage">
@@ -192,24 +117,14 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2c60dbc0-67ed-4f50-899e-1546a2c5c186" name="Default Changelist" comment="" />
-      <created>1640063772444</created>
+      <changelist id="aa6130c5-0e61-44ab-bb42-b958c3eadec6" name="Default Changelist" comment="" />
+      <created>1641278384455</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1640063772444</updated>
-      <workItem from="1640063774692" duration="785000" />
-      <workItem from="1640133177612" duration="2272000" />
-      <workItem from="1640149478884" duration="1923000" />
-      <workItem from="1640156306987" duration="318000" />
-      <workItem from="1640159253174" duration="953000" />
-      <workItem from="1640235767714" duration="1042000" />
-      <workItem from="1640236854974" duration="16000" />
-      <workItem from="1640237345728" duration="97000" />
-      <workItem from="1640267685114" duration="760000" />
-      <workItem from="1640668531519" duration="584000" />
-      <workItem from="1640674016655" duration="2116000" />
-      <workItem from="1640677566697" duration="1809000" />
-      <workItem from="1640700026149" duration="1027000" />
+      <updated>1641278384455</updated>
+      <workItem from="1641278387983" duration="963000" />
+      <workItem from="1641279445705" duration="1246000" />
+      <workItem from="1641282926337" duration="2104000" />
     </task>
     <servers />
   </component>

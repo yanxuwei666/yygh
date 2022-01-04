@@ -13,8 +13,8 @@
     <artifactId>common</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>common-util</module>
         <module>service-util</module>
+        <module>common-util</module>
     </modules>
 
     <properties>

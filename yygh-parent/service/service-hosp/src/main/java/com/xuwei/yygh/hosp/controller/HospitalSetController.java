@@ -58,6 +58,13 @@ public class HospitalSetController {
         return Result.ok(hospitalSetPage);
     }
 
+    @ApiOperation("根据id查询医院设置")
+    @GetMapping("/getHospSet/{id}")
+    public Result getHospSet(@PathVariable Long id) {
+        HospitalSet hospitalSet = hospitalSetService.getById(id);
+        return Result.ok(hospitalSet);
+    }
+
     @ApiOperation("根据id删除医院设置")
     @DeleteMapping("{id}")
     public Result removeHospSet(@PathVariable Long id) {
@@ -91,7 +98,7 @@ public class HospitalSetController {
     }
 
     @ApiModelProperty("修改医院设置")
-    @GetMapping("updateHospSet")
+    @PostMapping("updateHospSet")
     public Result updateHospSet(@RequestBody HospitalSet hospitalSet) {
         boolean flag = hospitalSetService.updateById(hospitalSet);
         if (flag) {
