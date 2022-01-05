@@ -1,0 +1,34 @@
+# 服务端口
+server:
+  port: 8202
+
+# 开启 sentinel
+#feign:
+#  sentinel:
+#    enabled: true
+
+spring:
+  application:
+    name: service-cmn  # 服务名
+  profiles:
+    active: dev  # 环境设置
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/yygh_cmn?characterEncoding=utf-8&useSSL=false
+    username: root
+    password: 123456
+  jackson: # 返回json的全局时间格式
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+
+# 配置mapper xml文件的路径
+mybatis-plus:
+  # 输出sql日志
+  configuration:
+    map-underscore-to-camel-case: true
+    auto-mapping-behavior: full
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath*:mapper/*.xml
+
+
+

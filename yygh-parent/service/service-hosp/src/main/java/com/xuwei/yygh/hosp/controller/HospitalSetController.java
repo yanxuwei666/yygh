@@ -43,6 +43,7 @@ public class HospitalSetController {
     public Result findPageHospSet(@PathVariable Long current,
                                   @PathVariable Long limit,
                                   @RequestBody(required = false) HospitalSetQueryVo hospitalSetQueryVo) {
+        System.out.println("当期页：" + current + "，当期显示数：" + limit + "，查询对象：" + hospitalSetQueryVo);
         // 创建page对象
         Page<HospitalSet> page = new Page<>(current, limit);
         // 构建对象
@@ -51,6 +52,8 @@ public class HospitalSetController {
         String hoscode = hospitalSetQueryVo.getHoscode();
         if (!StringUtils.isBlank(hosname)) {
             wrapper.like("hosname", hosname);
+        }
+        if (!StringUtils.isBlank(hoscode)) {
             wrapper.eq("hoscode", hoscode);
         }
         // 调用方法实现分页查询

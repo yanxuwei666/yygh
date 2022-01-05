@@ -5,22 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa6130c5-0e61-44ab-bb42-b958c3eadec6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/api/hosp/hospitalSet.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/views/hosp/hospitalSet/add.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/views/hosp/hospitalSet/list.vue" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh-admin/src/api/dict.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yygh-admin/src/views/dict/list.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-cmn/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-cmn/src/main/java/com/xuwei/yygh/cmn/ServiceCmnApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-cmn/src/main/java/com/xuwei/yygh/cmn/config/DictConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-cmn/src/main/java/com/xuwei/yygh/cmn/config/Swagger2Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-cmn/src/main/java/com/xuwei/yygh/cmn/controller/DictController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-cmn/src/main/java/com/xuwei/yygh/cmn/mapper/DictMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-cmn/src/main/java/com/xuwei/yygh/cmn/service/DictService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-cmn/src/main/java/com/xuwei/yygh/cmn/service/impl/DictServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-cmn/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-cmn/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-cmn/src/main/resources/mapper/DictMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/router/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../yygh-admin/src/views/hospSet/list.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/views/hospSet/list.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/views/hospSet/vue.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common-util/target/classes/com/xuwei/yygh/common/exception/MyException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common-util/target/classes/com/xuwei/yygh/common/exception/YyghException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common-util/target/classes/com/xuwei/yygh/common/handler/GlobalExceptionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common-util/target/classes/com/xuwei/yygh/common/result/Result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common-util/target/classes/com/xuwei/yygh/common/result/ResultCodeEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/service-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/service-util/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/model/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/views/layout/components/AppMain.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/views/layout/components/AppMain.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-hosp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-hosp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/xuwei/yygh/hosp/ServiceHospApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/xuwei/yygh/hosp/ServiceHospApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/xuwei/yygh/hosp/config/MyBatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/xuwei/yygh/hosp/config/HospSetConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/xuwei/yygh/hosp/controller/HospitalSetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/xuwei/yygh/hosp/controller/HospitalSetController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,9 +34,24 @@
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -44,7 +62,9 @@
     </option>
   </component>
   <component name="ProjectId" id="23DpCJLRfry5thKGoD4MsppPBQd" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -57,23 +77,30 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/service/service-cmn/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="SDK Location" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\mywork\project\yygh\yygh-parent\service\service-cmn\src\main\resources" />
+      <recent name="D:\mywork\project\yygh\yygh-parent\service\service-cmn\src\main\java\com\xuwei\yygh\cmn" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\mywork\project\yygh\yygh-parent\service\service-hosp\src\main\resources" />
       <recent name="D:\mywork\project\yygh\yygh-parent\service\service-hosp\src\main\java" />
       <recent name="D:\mywork\project\yygh\yygh-parent\model\src\main\java" />
       <recent name="D:\mywork\project\yygh\yygh-parent\common\service-util\src\main\java" />
       <recent name="D:\mywork\project\yygh\yygh-parent\common\common-util\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xuwei.yygh.cmn.config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -83,7 +110,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.ServiceCmnApplication">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -91,6 +118,20 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceCmnApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-cmn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuwei.yygh.cmn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xuwei.yygh.cmn.ServiceCmnApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,9 +149,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ServiceCmnApplication" />
+      <item itemvalue="Spring Boot.ServiceHospApplication" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ServiceCmnApplication" />
         <item itemvalue="Spring Boot.ServiceHospApplication" />
+        <item itemvalue="Spring Boot.ServiceCmnApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -125,6 +172,9 @@
       <workItem from="1641278387983" duration="963000" />
       <workItem from="1641279445705" duration="1246000" />
       <workItem from="1641282926337" duration="2104000" />
+      <workItem from="1641349431732" duration="1928000" />
+      <workItem from="1641371619192" duration="1264000" />
+      <workItem from="1641388119012" duration="5620000" />
     </task>
     <servers />
   </component>

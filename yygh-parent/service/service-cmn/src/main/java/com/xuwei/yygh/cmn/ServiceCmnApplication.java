@@ -1,17 +1,16 @@
-package com.xuwei.yygh.hosp;
+package com.xuwei.yygh.cmn;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * @Description 医院设置启动类
- * @Date 2021/12/21 13:22
+ * @Description TODO
+ * @Date 2022/1/5 23:07
  * @Author yxw
  */
 @SpringBootApplication
-public class ServiceHospApplication {
-
+public class ServiceCmnApplication {
     public static void main(String[] args) {
-        SpringApplication.run(ServiceHospApplication.class, args);
+        SpringApplication.run(ServiceCmnApplication.class, args);
     }
 }

@@ -1,5 +1,6 @@
 <template>
   <div class="app-container">
+    <!-- 查询表单：医院名称、医院编号 -->
     <el-form :inline="true" class="demo-form-inline">
       <el-form-item>
         <el-input  v-model="searchObj.hosname" placeholder="医院名称"/>
@@ -15,6 +16,7 @@
       <el-button type="danger" size="mini" @click="removeRows()">批量删除</el-button>
     </div>
 
+    <!-- 表格显示 -->
     <el-table
       :data="list" stripe style="width: 100%" @selection-change="handleSelectionChange">
       <el-table-column type="selection" width="55"/>
@@ -85,7 +87,7 @@ export default {
   methods: {//定义方法，进行请求接口调用
     //锁定和取消锁定
     lockHostSet(id,status) {
-      hospset.lockHospSet(id,status)
+      hospset.lockHospSet(id, status)
         .then(response => {
           //刷新
           this.getList()
@@ -104,7 +106,7 @@ export default {
       }).then(() => { //确定执行then方法
         var idList = []
         //遍历数组得到每个id值，设置到idList里面
-        for(var i=0;i<this.multipleSelection.length;i++) {
+        for(var i=0; i<this.multipleSelection.length;i++) {
           var obj = this.multipleSelection[i]
           var id = obj.id
           idList.push(id)
