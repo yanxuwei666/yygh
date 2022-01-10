@@ -2,6 +2,7 @@ package com.xuwei.yygh.cmn.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.xuwei.yygh.model.cmn.Dict;
+import org.springframework.stereotype.Repository;
 
 /**
 * @author yxw
@@ -9,6 +10,7 @@ import com.xuwei.yygh.model.cmn.Dict;
 * @createDate 2021-12-22 13:21:37
 * @Entity com.xuwei.yygh.hosp.domain.HospitalSet
 */
+@Repository
 public interface DictMapper extends BaseMapper<Dict> {
 
 }
