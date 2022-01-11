@@ -5,15 +5,290 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa6130c5-0e61-44ab-bb42-b958c3eadec6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/xuwei/yygh/common/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/xuwei/yygh/vo/cmn/DictEeVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-cmn/src/main/java/com/xuwei/yygh/cmn/listener/DictListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/views/dict/list.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/views/dict/list.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-cmn/src/main/java/com/xuwei/yygh/cmn/controller/DictController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-cmn/src/main/java/com/xuwei/yygh/cmn/controller/DictController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-cmn/src/main/java/com/xuwei/yygh/cmn/mapper/DictMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-cmn/src/main/java/com/xuwei/yygh/cmn/mapper/DictMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-cmn/src/main/java/com/xuwei/yygh/cmn/service/DictService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-cmn/src/main/java/com/xuwei/yygh/cmn/service/DictService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-cmn/src/main/java/com/xuwei/yygh/cmn/service/impl/DictServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-cmn/src/main/java/com/xuwei/yygh/cmn/service/impl/DictServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/xuwei/yygh/common/helper/HttpRequestHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/java/com/xuwei/hospital/ManageApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/java/com/xuwei/hospital/config/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/java/com/xuwei/hospital/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/java/com/xuwei/hospital/config/Swagger2Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/java/com/xuwei/hospital/controller/ApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/java/com/xuwei/hospital/controller/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/java/com/xuwei/hospital/controller/HospitalController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/java/com/xuwei/hospital/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/java/com/xuwei/hospital/mapper/HospitalSetMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/java/com/xuwei/hospital/mapper/OrderInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/java/com/xuwei/hospital/mapper/ScheduleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/java/com/xuwei/hospital/model/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/java/com/xuwei/hospital/model/BaseNoAutoEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/java/com/xuwei/hospital/model/HospitalSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/java/com/xuwei/hospital/model/OrderInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/java/com/xuwei/hospital/model/Patient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/java/com/xuwei/hospital/model/Schedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/java/com/xuwei/hospital/service/ApiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/java/com/xuwei/hospital/service/HospitalService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/java/com/xuwei/hospital/service/impl/ApiServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/java/com/xuwei/hospital/service/impl/HospitalServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/java/com/xuwei/hospital/util/BeanUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/java/com/xuwei/hospital/util/BigDecimalUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/java/com/xuwei/hospital/util/HttpRequestHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/java/com/xuwei/hospital/util/HttpUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/java/com/xuwei/hospital/util/MD5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/java/com/xuwei/hospital/util/PageInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/java/com/xuwei/hospital/util/PageModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/java/com/xuwei/hospital/util/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/java/com/xuwei/hospital/util/ResultCodeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/java/com/xuwei/hospital/util/YyghException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/application-test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/hospital.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/animate.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/bootstrap.min14ed.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/demo/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/demo/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/demo/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/demo/webuploader-demo.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/font-awesome.min93e3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/layout-sd.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/layout/meta/createTest.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/login.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/patterns/header-profile-skin-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/patterns/header-profile-skin-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/patterns/header-profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/patterns/shattered.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/blueimp/css/blueimp-gallery.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/blueimp/img/error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/blueimp/img/error.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/blueimp/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/blueimp/img/play-pause.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/blueimp/img/play-pause.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/blueimp/img/video-play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/blueimp/img/video-play.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/bootstrap-table/bootstrap-table.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/chosen/chosen-sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/chosen/chosen-sprite@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/chosen/chosen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/clockpicker/clockpicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/codemirror/ambiance.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/codemirror/codemirror.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/colorpicker/css/bootstrap-colorpicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/colorpicker/img/bootstrap-colorpicker/alpha-horizontal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/colorpicker/img/bootstrap-colorpicker/alpha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/colorpicker/img/bootstrap-colorpicker/hue-horizontal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/colorpicker/img/bootstrap-colorpicker/hue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/colorpicker/img/bootstrap-colorpicker/saturation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/cropper/cropper.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/dataTables/dataTables.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/datapicker/datepicker3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/dropzone/basic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/dropzone/dropzone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/footable/fonts/footable.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/footable/fonts/footable.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/footable/fonts/footable.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/footable/fonts/footable.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/footable/fonts/footabled41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/footable/footable.core.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/fullcalendar/fullcalendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/fullcalendar/fullcalendar.print.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/iCheck/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/iCheck/green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/iCheck/green@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/images/sort_asc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/images/sort_desc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/images/sprite-skin-flat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/images/spritemap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/images/spritemap@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/ionRangeSlider/ion.rangeSlider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/ionRangeSlider/ion.rangeSlider.skinFlat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/jasny/jasny-bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/jqgrid/ui.jqgridffe4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/jsTree/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/markdown/bootstrap-markdown.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/morris/morris-0.4.3.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/nouslider/jquery.nouislider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/plyr/plyr.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/plyr/sprite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/simditor/simditor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/steps/jquery.steps.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/summernote/summernote-bs3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/summernote/summernote.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/sweetalert/sweetalert.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/switchery/switchery.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/toastr/toastr.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/treeview/bootstrap-treeview.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/plugins/webuploader/webuploader.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/show.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/sso.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/style.min862f.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/xietong/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/xietong/vis-network.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/xietong/vis-timeline-graph2d.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/xietong/vis.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/xietong/vis.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/xuetong/vis-network.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/xuetong/vis-timeline-graph2d.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/xuetong/vis.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/xuetong/vis.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/css/xuetong/xuetong_main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/fonts/fontawesome-webfont93e3.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/fonts/fontawesome-webfont93e3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/fonts/fontawesome-webfont93e3.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/fonts/fontawesome-webfont93e3.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/fonts/fontawesome-webfont93e3.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/fonts/fontawesome-webfontd41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/fonts/glyphicons-halflings-regulard41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/img/a1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/img/a2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/img/a3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/img/a4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/img/a5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/img/a6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/img/a7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/img/a8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/img/a9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/img/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/img/iconfont-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/img/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/img/index.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/img/index_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/img/loading-upload.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/img/locked.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/img/login-background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/img/p1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/img/p2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/img/p3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/img/p_big1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/img/p_big2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/img/p_big3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/img/pay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/img/profile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/img/profile_big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/img/profile_small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/img/progress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/img/qr_code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/img/su_loginbg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/img/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/img/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/img/wenku_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/common/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/common/jquery.select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/common/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/contabs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/content.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/hplus.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/datePicker/My97DatePicker.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/datePicker/WdatePicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/datePicker/calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/datePicker/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/datePicker/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/datePicker/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/datePicker/lang/zh-tw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/datePicker/skin/WdatePicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/datePicker/skin/datePicker.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/datePicker/skin/default/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/datePicker/skin/default/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/datePicker/skin/whyGreen/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/datePicker/skin/whyGreen/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/datePicker/skin/whyGreen/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/layer/extend/layer.ext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/layer/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/layer/skin/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/layer/skin/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/layer/skin/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/layer/skin/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/layer/skin/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/layer/skin/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/layer/skin/layer.ext.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/layer/skin/moon/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/metisMenu/jquery.metisMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/pace/pace.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/slimscroll/jquery.slimscroll.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/validate/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/validate/messages_zh.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/ztree/css/awesomeStyle/awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/ztree/css/awesomeStyle/awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/ztree/css/awesomeStyle/fa.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/ztree/css/awesomeStyle/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/ztree/css/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/ztree/css/metroStyle/img/line_conn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/ztree/css/metroStyle/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/ztree/css/metroStyle/img/metro.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/ztree/css/metroStyle/img/metro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/ztree/css/metroStyle/metroStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/ztree/css/zTreeStyle/img/diy/1_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/ztree/css/zTreeStyle/img/diy/1_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/ztree/css/zTreeStyle/img/diy/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/ztree/css/zTreeStyle/img/diy/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/ztree/css/zTreeStyle/img/diy/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/ztree/css/zTreeStyle/img/diy/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/ztree/css/zTreeStyle/img/diy/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/ztree/css/zTreeStyle/img/diy/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/ztree/css/zTreeStyle/img/diy/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/ztree/css/zTreeStyle/img/diy/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/ztree/css/zTreeStyle/img/line_conn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/ztree/css/zTreeStyle/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/ztree/css/zTreeStyle/img/zTreeStandard.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/ztree/css/zTreeStyle/img/zTreeStandard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/ztree/css/zTreeStyle/zTreeStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/ztree/js/jquery-1.4.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/ztree/js/jquery.ztree.all-3.5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/ztree/js/jquery.ztree.all-3.5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/ztree/js/jquery.ztree.core-3.5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/ztree/js/jquery.ztree.core-3.5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/ztree/js/jquery.ztree.excheck-3.5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/ztree/js/jquery.ztree.excheck-3.5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/ztree/js/jquery.ztree.exedit-3.5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/ztree/js/jquery.ztree.exedit-3.5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/ztree/js/jquery.ztree.exedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/ztree/js/jquery.ztree.exhide-3.5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/plugins/ztree/js/jquery.ztree.exhide-3.5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/static/js/sd_js/validate.expand.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/templates/common/failurePage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/templates/common/meta.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/templates/common/pagination.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/templates/common/successPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/templates/department/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/templates/department/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/templates/frame/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/templates/frame/auth.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/templates/frame/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/templates/frame/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/templates/frame/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/templates/frame/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/templates/hospital/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/templates/hospital/createBatch.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/templates/hospital/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/templates/hospitalSet/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/templates/schedule/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/src/main/resources/templates/schedule/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/资源文件/sql/表结构.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/资源文件/示例数据/department.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/资源文件/示例数据/hospital.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/资源文件/示例数据/schedule.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/xuwei/yygh/hosp/controller/api/ApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/xuwei/yygh/hosp/repository/HospitalRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/xuwei/yygh/hosp/service/HospitalService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/xuwei/yygh/hosp/service/impl/HospitalServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yygh-admin/config/dev.env.js" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/config/dev.env.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/service-cmn/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-cmn/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-hosp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-hosp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/xuwei/yygh/hosp/config/Swagger2Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/xuwei/yygh/hosp/config/Swagger2Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/xuwei/yygh/hosp/service/HospitalSetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/xuwei/yygh/hosp/service/HospitalSetService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/xuwei/yygh/hosp/service/impl/HospitalSetServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/xuwei/yygh/hosp/service/impl/HospitalSetServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-hosp/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-hosp/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +341,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/service/service-cmn/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hospital-manage" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -76,8 +351,14 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\mywork\project\yygh\yygh-parent\hospital-manage" />
+      <recent name="D:\mywork\project\yygh\yygh-parent\hospital-manage\src\main\resources" />
+      <recent name="D:\mywork\project\yygh\yygh-parent\hospital-manage\src\main\java" />
       <recent name="D:\mywork\project\yygh\yygh-parent\service\service-cmn\src\main\resources" />
       <recent name="D:\mywork\project\yygh\yygh-parent\service\service-cmn\src\main\java\com\xuwei\yygh\cmn" />
     </key>
@@ -99,7 +380,32 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServiceCmnApplication">
+  <component name="RunManager" selected="Spring Boot.ServiceHospApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HospitalManageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hospital-manage" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xuwei.hospitalmanage.HospitalManageApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hospital-manage" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xuwei.hospital.ManageApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServiceCmnApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="service-cmn" />
       <extension name="coverage">
@@ -130,11 +436,13 @@
     <list>
       <item itemvalue="Spring Boot.ServiceCmnApplication" />
       <item itemvalue="Spring Boot.ServiceHospApplication" />
+      <item itemvalue="Spring Boot.HospitalManageApplication" />
+      <item itemvalue="Spring Boot.ManageApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ServiceCmnApplication" />
         <item itemvalue="Spring Boot.ServiceHospApplication" />
+        <item itemvalue="Spring Boot.ServiceCmnApplication" />
         <item itemvalue="Spring Boot.ServiceCmnApplication" />
       </list>
     </recent_temporary>
@@ -155,7 +463,11 @@
       <workItem from="1641388119012" duration="5620000" />
       <workItem from="1641429258054" duration="1487000" />
       <workItem from="1641436305243" duration="3467000" />
-      <workItem from="1641807438957" duration="596000" />
+      <workItem from="1641807438957" duration="2474000" />
+      <workItem from="1641877773477" duration="1128000" />
+      <workItem from="1641886099921" duration="1676000" />
+      <workItem from="1641887853226" duration="1240000" />
+      <workItem from="1641901571177" duration="4728000" />
     </task>
     <servers />
   </component>
@@ -173,5 +485,19 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/service/service-hosp/src/main/java/com/xuwei/yygh/hosp/controller/api/ApiController.java</url>
+          <line>36</line>
+          <properties class="com.xuwei.yygh.hosp.controller.api.ApiController" method="saveHospital">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

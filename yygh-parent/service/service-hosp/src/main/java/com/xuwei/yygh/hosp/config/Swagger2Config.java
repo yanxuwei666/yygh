@@ -20,6 +20,18 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @Configuration
 public class Swagger2Config {
     @Bean
+    public Docket webApiConfig(){
+        return new Docket(DocumentationType.SWAGGER_2)
+                .groupName("webApi")
+                .apiInfo(webApiInfo())
+                .select()
+                //只显示api路径下的页面
+                .paths(Predicates.and(PathSelectors.regex("/api/.*")))
+                .build();
+
+    }
+
+    @Bean
     public Docket adminApiConfig(){
 
         return new Docket(DocumentationType.SWAGGER_2)
@@ -30,6 +42,16 @@ public class Swagger2Config {
                 .paths(Predicates.and(PathSelectors.regex("/admin/.*")))
                 .build();
 
+    }
+
+    private ApiInfo webApiInfo(){
+
+        return new ApiInfoBuilder()
+                .title("后台管理系统-API文档")
+                .description("本文档描述了后台管理系统微服务接口定义")
+                .version("1.0")
+                .contact(new Contact("yxw", "http://www.baidu.com", "1076372957@qq.com"))
+                .build();
     }
 
     private ApiInfo adminApiInfo(){

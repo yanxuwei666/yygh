@@ -2,11 +2,6 @@
 server:
   port: 8202
 
-# 开启 sentinel
-#feign:
-#  sentinel:
-#    enabled: true
-
 spring:
   application:
     name: service-cmn  # 服务名
@@ -41,6 +36,3 @@ mybatis-plus:
     auto-mapping-behavior: full
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
   mapper-locations: classpath*:mapper/*.xml
-
-
-
