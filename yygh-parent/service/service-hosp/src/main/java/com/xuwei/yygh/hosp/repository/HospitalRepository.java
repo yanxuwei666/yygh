@@ -5,7 +5,7 @@ import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
 /**
- * @Description TODO
+ * @Description 医院管理接口
  * @Date 2022/1/11 13:13
  * @Author yxw
  */

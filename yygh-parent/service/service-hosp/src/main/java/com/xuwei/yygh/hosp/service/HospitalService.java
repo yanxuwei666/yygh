@@ -1,5 +1,7 @@
 package com.xuwei.yygh.hosp.service;
 
+import com.xuwei.yygh.model.hosp.Hospital;
+
 import java.util.Map;
 
 /**
@@ -13,4 +15,11 @@ public interface HospitalService {
      * @param paramMap
      */
     void save(Map<String, Object> paramMap);
+
+    /**
+     * 查询医院
+     * @param hoscode
+     * @return
+     */
+    Hospital getByHoscode(String hoscode);
 }
