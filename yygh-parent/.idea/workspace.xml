@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa6130c5-0e61-44ab-bb42-b958c3eadec6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/xuwei/yygh/hosp/repository/DepartmentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/xuwei/yygh/hosp/repository/ScheduleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/xuwei/yygh/hosp/service/DepartmentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/xuwei/yygh/hosp/service/ScheduleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/xuwei/yygh/hosp/service/impl/DepartmentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/xuwei/yygh/hosp/service/impl/ScheduleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hospital-manage/src/main/java/com/xuwei/hospital/service/impl/ApiServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hospital-manage/src/main/java/com/xuwei/hospital/service/impl/ApiServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/xuwei/yygh/hosp/controller/api/ApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/xuwei/yygh/hosp/controller/api/ApiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/xuwei/yygh/hosp/repository/HospitalRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/xuwei/yygh/hosp/repository/HospitalRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/xuwei/yygh/hosp/controller/api/HospitalController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/资源文件/软件下载.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/xuwei/yygh/hosp/service/HospitalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/xuwei/yygh/hosp/service/HospitalService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/xuwei/yygh/hosp/service/impl/HospitalServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/xuwei/yygh/hosp/service/impl/HospitalServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-hosp/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-hosp/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -69,7 +64,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/hospital-manage" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../company/code/yygh-parent" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -112,15 +107,13 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.ManageApplication">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -195,6 +188,10 @@
       <workItem from="1641901571177" duration="4728000" />
       <workItem from="1641952328620" duration="2052000" />
       <workItem from="1641991834012" duration="2567000" />
+      <workItem from="1641994871137" duration="223000" />
+      <workItem from="1642146332592" duration="1243000" />
+      <workItem from="1642379908441" duration="456000" />
+      <workItem from="1642573232945" duration="88000" />
     </task>
     <servers />
   </component>
