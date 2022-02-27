@@ -4,12 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa6130c5-0e61-44ab-bb42-b958c3eadec6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/xuwei/yygh/hosp/controller/api/HospitalController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/资源文件/软件下载.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/xuwei/yygh/hosp/service/HospitalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/xuwei/yygh/hosp/service/HospitalService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/xuwei/yygh/hosp/service/impl/HospitalServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-hosp/src/main/java/com/xuwei/yygh/hosp/service/impl/HospitalServiceImpl.java" afterDir="false" />
+    <list default="true" id="aa6130c5-0e61-44ab-bb42-b958c3eadec6" name="Default Changelist" comment="Default Changelist">
+      <change afterPath="$PROJECT_DIR$/common/common-util/target/classes/com/xuwei/yygh/common/exception/MyException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/target/classes/com/xuwei/yygh/common/exception/YyghException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/target/classes/com/xuwei/yygh/common/handler/GlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/target/classes/com/xuwei/yygh/common/result/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/target/classes/com/xuwei/yygh/common/result/ResultCodeEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service-util/target/classes/com/xuwei/yygh/common/config/RedisConfig$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service-util/target/classes/com/xuwei/yygh/common/config/RedisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service-util/target/classes/com/xuwei/yygh/common/helper/HttpRequestHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hospital-manage/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myworkgiteecodeprojectyygh-parentyygh_logedu/log_error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myworkgiteecodeprojectyygh-parentyygh_logedu/log_info.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myworkgiteecodeprojectyygh-parentyygh_logedu/log_warn.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myworkgiteecodeprojectyygh-parentyygh_logedu/warn/log-warn-2022-01-27.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-hosp/target/classes/com/xuwei/yygh/hosp/ServiceHospApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-hosp/target/classes/com/xuwei/yygh/hosp/config/HospSetConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-hosp/target/classes/com/xuwei/yygh/hosp/config/Swagger2Config.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-hosp/target/classes/com/xuwei/yygh/hosp/controller/HospitalSetController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-hosp/target/classes/com/xuwei/yygh/hosp/controller/api/ApiController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-hosp/target/classes/com/xuwei/yygh/hosp/controller/api/HospitalController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-hosp/target/classes/com/xuwei/yygh/hosp/domain/HospitalSet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-hosp/target/classes/com/xuwei/yygh/hosp/mapper/HospitalSetMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-hosp/target/classes/com/xuwei/yygh/hosp/repository/DepartmentRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-hosp/target/classes/com/xuwei/yygh/hosp/repository/HospitalRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-hosp/target/classes/com/xuwei/yygh/hosp/repository/ScheduleRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-hosp/target/classes/com/xuwei/yygh/hosp/service/DepartmentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-hosp/target/classes/com/xuwei/yygh/hosp/service/HospitalService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-hosp/target/classes/com/xuwei/yygh/hosp/service/HospitalSetService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-hosp/target/classes/com/xuwei/yygh/hosp/service/ScheduleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-hosp/target/classes/com/xuwei/yygh/hosp/service/impl/DepartmentServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-hosp/target/classes/com/xuwei/yygh/hosp/service/impl/HospitalServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-hosp/target/classes/com/xuwei/yygh/hosp/service/impl/HospitalSetServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-hosp/target/classes/com/xuwei/yygh/hosp/service/impl/ScheduleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-hosp/target/test-classes/com/xuwei/yygh/TestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yygh-admin/config/dev.env.js" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/config/dev.env.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/api/hospset.js" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/api/hospset.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/views/hospSet/add.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/views/hospSet/add.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yygh-admin/src/views/hospSet/list.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../yygh-admin/src/views/hospSet/list.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/service-hosp/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-hosp/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +72,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -56,6 +91,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -64,15 +100,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../company/code/yygh-parent" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="ReactorSettings">
@@ -80,11 +116,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\my files\my code\yygh\yygh-parent\hospital-manage" />
       <recent name="D:\mywork\project\yygh\yygh-parent\hospital-manage" />
       <recent name="D:\mywork\project\yygh\yygh-parent\hospital-manage\src\main\resources" />
       <recent name="D:\mywork\project\yygh\yygh-parent\hospital-manage\src\main\java" />
       <recent name="D:\mywork\project\yygh\yygh-parent\service\service-cmn\src\main\resources" />
-      <recent name="D:\mywork\project\yygh\yygh-parent\service\service-cmn\src\main\java\com\xuwei\yygh\cmn" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\mywork\project\yygh\yygh-parent\service\service-hosp\src\main\resources" />
@@ -106,7 +142,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ManageApplication">
+  <component name="RunManager" selected="Spring Boot.ServiceHospApplication">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -161,7 +197,6 @@
       <list>
         <item itemvalue="Spring Boot.ServiceHospApplication" />
         <item itemvalue="Spring Boot.ServiceCmnApplication" />
-        <item itemvalue="Spring Boot.ServiceCmnApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -192,6 +227,20 @@
       <workItem from="1642146332592" duration="1243000" />
       <workItem from="1642379908441" duration="456000" />
       <workItem from="1642573232945" duration="88000" />
+      <workItem from="1643013681176" duration="203000" />
+      <workItem from="1643071160495" duration="72000" />
+      <workItem from="1643071949530" duration="566000" />
+      <workItem from="1643072534372" duration="346000" />
+      <workItem from="1643077738511" duration="57000" />
+      <workItem from="1643270172723" duration="160000" />
+      <workItem from="1643333811333" duration="34000" />
+      <workItem from="1643444338042" duration="544000" />
+      <workItem from="1643444914224" duration="47000" />
+      <workItem from="1643444995092" duration="8000" />
+      <workItem from="1643445096008" duration="43000" />
+      <workItem from="1643504335258" duration="2241000" />
+      <workItem from="1643509697159" duration="252000" />
+      <workItem from="1643509973827" duration="95000" />
     </task>
     <servers />
   </component>
@@ -208,7 +257,9 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -8,16 +8,16 @@ export default {
       data: searchObj // data表示使用json格式传递
     })
   },
-  //删除医院设置
+  // 删除医院设置
   deleteHospSet(id){
-    return request ({
+    return request({
       url: `/admin/hosp/hospitalSet/${id}`,
       method: 'delete'
     })
   },
-  //批量删除
+  // 批量删除
   batchRemoveHospSet(idList) {
-    return request ({
+    return request({
       url: `/admin/hosp/hospitalSet/batchRemove`,
       method: 'delete',
       data: idList
@@ -47,7 +47,7 @@ export default {
   },
   //修改医院设置
   updateHospSet(hospitalSet) {
-    return request ({
+    return request({
       url: `/admin/hosp/hospitalSet/updateHospSet`,
       method: 'post',
       data: hospitalSet
