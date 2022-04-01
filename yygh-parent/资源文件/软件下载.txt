@@ -1,5 +1,0 @@
-# docker下载nacos
-docker pull nacos/nacos-server
-
-# docker下载redis
-docker pull redis
